@@ -1,5 +1,6 @@
-PATH
-  remote: ../testengine
+GIT
+  remote: https://github.com/camsys/testengine.git
+  revision: 708347d97efc4142bf7ffa91ad64745e2530a217
   specs:
     testengine (0.0.1)
       rails (~> 4.0.0)

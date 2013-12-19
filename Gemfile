@@ -32,7 +32,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'testengine', path: "../testengine"
+# gem 'testengine', path: "../testengine"
+gem 'testengine', git: 'https://github.com/camsys/testengine.git'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
